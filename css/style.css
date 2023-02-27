@@ -10,11 +10,11 @@
     height: 65px;
     width: auto;
     margin: -8px;
+    grid-template-areas: "nav nam bac";
+    grid-template-columns: 1fr 1fr 1fr;
     border-bottom-width: 5px;
     border-bottom-style: solid;
     border-image: linear-gradient(to right, rgb(0, 100, 255), rgb(255, 0, 100)) 1; 
-    grid-template-areas: "nav nam bac";
-    grid-template-columns: 1fr 1fr 1fr;
   }
   
   #navigation {
@@ -24,7 +24,7 @@
     grid-area: nav;
     height: 65px;
     margin: 0;
-    padding: 0;
+    padding-right: 25px;
   }
   
   #title {
@@ -47,20 +47,20 @@
 
 #pls_centre {
     display: flex;
+    justify-content: center;
     margin-top: 25px;
     width: 1fr;
-    justify-content: center;
+   
 }
 
 #main_wrapper {
     display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    width: 75%;
-    height: 800px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    margin-top: 100px;
+    height: 800px;
+    width: 75%;
     border-radius: 75px;
     background-color: rgba(74, 75, 76, 0.25);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -70,10 +70,15 @@
 
 #chapters {
     display: flex;
-    margin-top: 0px;
-    width: 25%;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    width: 20%;
+    height: 800px;
+    margin-top: 8px;
+    margin-left: -8px;
     background-color: rgba(74, 75, 76, 0.25);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
