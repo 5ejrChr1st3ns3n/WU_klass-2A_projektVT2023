@@ -17,8 +17,10 @@ h2 {
 #header {
     display: grid;
     height: 65px;
-    width: auto;
+    width: 100%;
     margin: -8px;
+    margin-top: -25px;
+    position: fixed;
     grid-template-areas: "nav nam bac";
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom-width: 5px;
@@ -82,7 +84,7 @@ h2 {
     width: 25%;
     vertical-align: top;
     height: 2500px;
-    margin-top: 8px;
+    margin-top: 44px;
     margin-left: -8px;
     margin-right: 75px;
     background-color: rgba(74, 75, 76, 0.25);
@@ -93,6 +95,17 @@ h2 {
   display: inline-block;
   width: 64%;
   height: 800px;
-  margin-top: 8px;
+  margin-top: 44px;
   vertical-align: top;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+#maps_wrapper {
+  display: flexbox;
+  margin-top: 100px;
+  height: 800px;
+  width: 80%;
+  background-color: rgba(74, 75, 76, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
