@@ -102,10 +102,53 @@ h2 {
 /*--------------------------------------------------------------------------------------------------------*/
 
 #maps_wrapper {
-  display: flexbox;
+  display: grid;
   margin-top: 100px;
   height: 800px;
-  width: 80%;
+  width: 85%;
+  border-radius: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   background-color: rgba(74, 75, 76, 0.25);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: 150px 170px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "img nam"
+  "img mpr"
+  "img mdp"
+  ;
+  height: 150px;
+  width: 320px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cover_img {
+  height: 115px;
+  margin-top: 17.5px;
+  margin-left: 17.5px;
+  width: auto;
+  border-radius: 20px;
+  grid-area: img;
+}
+
+.song_name {
+  grid-area: nam;
+}
+
+.mappers {
+  grid-area: mpr;
+}
+
+.links {
+  grid-area: mdp;
 }
