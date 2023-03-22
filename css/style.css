@@ -102,6 +102,19 @@ h2 {
 
 /*--------------------------------------------------------------------------------------------------------*/
 
+#beatsaver {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(74, 75, 76, 0.25);
+  height: 150px;
+  width: 320px;
+}
+
+#pfp {
+  height: 115px;
+  width: auto;
+}
+
 #maps_wrapper {
   display: grid;
   margin-top: 100px;
