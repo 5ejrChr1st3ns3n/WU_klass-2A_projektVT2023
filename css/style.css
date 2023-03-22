@@ -21,6 +21,7 @@ h2 {
     margin: -8px;
     margin-top: -25px;
     position: fixed;
+    z-index: +2;
     grid-template-areas: "nav nam bac";
     grid-template-columns: 1fr 1fr 1fr;
     border-bottom-width: 5px;
@@ -147,8 +148,17 @@ h2 {
 
 .mappers {
   grid-area: mpr;
+  position: relative;
+  top: -10px;
 }
 
 .links {
   grid-area: mdp;
+  position: relative;
+  bottom: -7px;
+  background-color: rgba(74, 75, 76, 0);
+}
+
+.download_link {
+  padding-right: 25px;
 }
