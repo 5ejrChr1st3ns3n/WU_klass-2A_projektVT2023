@@ -61,8 +61,6 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    width: 1fr;
-   
 }
 
 #main_wrapper {
@@ -104,10 +102,10 @@ h2 {
 
 #beatsaver {
   display: flex;
-  justify-content: center;
+  justify-self: center;
   background-color: rgba(74, 75, 76, 0.25);
   height: 150px;
-  width: 320px;
+  width: 150px;
 }
 
 #pfp {
@@ -118,13 +116,14 @@ h2 {
 #maps_wrapper {
   display: grid;
   margin-top: 100px;
-  height: 800px;
+  height: auto;
   width: 85%;
   border-radius: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  padding-bottom: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 180px;
   background-color: rgba(74, 75, 76, 0.25);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -139,7 +138,7 @@ h2 {
   "img mdp"
   ;
   height: 150px;
-  width: 320px;
+  width: auto;
   border-radius: 25px;
   margin-top: 30px;
   margin-left: 15px;
