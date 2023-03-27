@@ -14,7 +14,7 @@ h2 {
   margin-bottom: -10px;
 }
 
-#header {
+header {
     display: grid;
     height: 65px;
     width: 100%;
@@ -102,20 +102,35 @@ h2 {
 
 #beatsaver {
   display: flex;
-  justify-self: center;
-  background-color: rgba(74, 75, 76, 0.25);
-  height: 150px;
-  width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  height: 200px;
+  width: 200px;
 }
 
 #pfp {
   height: 115px;
-  width: auto;
+  width: 115px;
+  margin-top: 25px;
+}
+
+#pfp:hover {
+  height: 125px;
+  width: 125px;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+#wip_title {
+  display: flex;
+  justify-content: center;
 }
 
 #maps_wrapper {
   display: grid;
-  margin-top: 100px;
   height: auto;
   width: 85%;
   border-radius: 50px;
@@ -158,7 +173,7 @@ h2 {
   grid-area: nam;
 }
 
-.mappers {
+.artist {
   grid-area: mpr;
   position: relative;
   top: -10px;
