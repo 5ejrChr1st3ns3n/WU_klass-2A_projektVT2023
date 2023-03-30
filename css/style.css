@@ -112,11 +112,16 @@ header {
   margin-bottom: 75px;
 }
 
+.section_title {
+  font-size: 2.5rem;
+  margin-bottom: -15px;
+}
+
 #guide {
   display: inline-block;
   width: 70%;
   padding-left: 25%;
-  margin-top: 44px;
+  margin-top: 70px;
   vertical-align: top;
 }
 
