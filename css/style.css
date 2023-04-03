@@ -111,6 +111,7 @@ header {
   position: fixed;
   width: 20%;
   vertical-align: top;
+  margin-top: 6vh;
   min-height: 100vh;
   margin-left: -8px;
   background-color: rgba(74, 75, 76, 0.25);
