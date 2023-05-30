@@ -11,21 +11,43 @@
     <title>Chromia</title>
 </head>
 <body>
-    <header>
-        <section id="navigation">
-            <a href="mapping.html"><h2>My Mapping</h2></a>
-            <a href="settings.html"><h2>Setting Guide</h2></a>
-        </section>
+    <div class="mobile-menu">
+        <header>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="title"> 
 
-        <section id="title">
-            <h1>Chrome-Boi</h1>  
-        </section>
-
-        <section id="home">
-            <a href="index.html"><h2>Home</h2></a>
-        </section>
-    </header>
-
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html"><h2>Home</h2></a></li>
+              <li><a href="mapping.html"><h2>Mapping</h2></a></li>
+              <li><a href="settings.html"><h2>Setting Guide</h2></a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    
+      <div class="desktop-header">
+        <header>
+            <section id="navigation">
+                <a href="mapping.html"><h2>My Mapping</h2></a>
+                <a href="settings.html"><h2>Setting Guide</h2></a>
+            </section>
+    
+            <section id="title">
+                <h1>Chrome-Boi</h1>  
+            </section>
+    
+            <section id="home">
+                <a href="index.html"><h2>Home</h2></a>
+            </section>
+        </header>
+      </div>
+    
     <div id="pls_centre">
          <div id="main_wrapper">
             <section id="about_me">
@@ -42,5 +64,8 @@
             </section>
         </div>
     </div>
+
+<script src="/js/script.js"></script>
+
 </body>
 </html>
