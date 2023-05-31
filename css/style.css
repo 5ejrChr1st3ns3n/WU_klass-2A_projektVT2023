@@ -12,16 +12,19 @@ p {
 
 h1 {
   font-size: calc(13px + 1.5vw);
+  line-height: calc(13px + 1.5vw);
   background-color: rgba(0, 0, 0, 0);
 }
 
 h2 {
   font-size: calc(12px + 1.25vw);
+  line-height: calc(12px + 1.25vw);
   background-color: rgba(0, 0, 0, 0);
 }
 
 h3 {
   font-size: calc(11px + 1vw);
+  line-height: calc(11px + 1vw);
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: -10px;
 }
@@ -266,7 +269,7 @@ header {
   min-width: 300px;
   max-width: 1000px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 10%;
 }
 
 @media screen and (max-width: 800px) {
@@ -276,11 +279,6 @@ header {
   #guide {
     padding-left: 15%;
     padding-right: 15%;
-  }
-  .guide_section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
@@ -343,11 +341,27 @@ header {
   "img mdp"
   ;
   height: 150px;
-  width: auto;
+  width: 85%;
   border-radius: 25px;
   margin-top: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 7%;
+}
+
+.map h2 {
+  font-size: 32px;
+  line-height: 32px;
+  padding-top: 5px;
+}
+
+.map p {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: -10px;
+}
+
+.map h3 {
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .cover_img {
@@ -355,7 +369,7 @@ header {
   margin-top: 17.5px;
   margin-left: 17.5px;
   width: auto;
-  border-radius: 20px;
+  border-radius: 15px;
   grid-area: img;
 }
 
