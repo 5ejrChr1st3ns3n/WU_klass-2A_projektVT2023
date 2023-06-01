@@ -54,15 +54,6 @@ h3 {
   height: 3px;
   border-radius: 3px;
   background-color: white;
-  transition: transform 0.3s ease;
-}
-
-.line:first-child {
-  transform-origin: top left;
-}
-
-.line:last-child {
-  transform-origin: bottom left;
 }
 
 .menu {
