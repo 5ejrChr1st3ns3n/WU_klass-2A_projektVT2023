@@ -302,7 +302,7 @@ header {
 .guide_vid {
   display: flex;
   width: 65%;
-  min-width: 300px;
+  min-width: 275px;
   max-width: 1000px;
   height: auto;
   border-radius: 10%;
@@ -315,6 +315,18 @@ header {
   #guide {
     padding-left: 15%;
     padding-right: 15%;
+  }
+
+  .guide_vid {
+    display: flex;
+    width: 100%;
+    min-width: 200px;
+    max-width: 1000px;
+    height: auto;
+  }
+
+  .guide_section {
+    text-align: justify;
   }
 }
 
