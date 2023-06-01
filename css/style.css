@@ -273,6 +273,11 @@ header {
   text-decoration: none;
 }
 
+#chapters p {
+  font-size: calc(10px + 0.5vw);
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .chapter {
   background-color: rgba(0, 0, 0, 0);
 }
