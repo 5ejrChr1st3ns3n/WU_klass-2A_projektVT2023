@@ -308,7 +308,7 @@ header {
   border-radius: 10%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   #chapters {
     display: none;
   }
@@ -427,3 +427,29 @@ header {
   padding-right: 25px;
 }
 
+@media screen and (max-width: 767px) {
+  .download_link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #maps_wrapper {
+    padding: 0;
+    padding-bottom: 7%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .map {
+    margin-left: 7%;
+  }
+
+  .map h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .download_link {
+    display: none;
+  }
+}
