@@ -308,6 +308,10 @@ header {
   border-radius: 10%;
 }
 
+#final_tips {
+  padding-bottom: 150px;
+}
+
 @media screen and (max-width: 767px) {
   #chapters {
     display: none;
