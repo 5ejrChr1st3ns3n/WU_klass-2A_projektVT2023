@@ -154,7 +154,7 @@ header {
   background-color: rgba(0, 0, 0, 0);
 }
 
-#pls_centre {
+.pls_centre {
   display: flex;
   justify-content: center;
   margin-top: 25px;
